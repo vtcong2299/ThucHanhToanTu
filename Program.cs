@@ -11,9 +11,9 @@ namespace THUCHANHTOANTU
             int width;
             int area;
 
-            Console.WriteLine("Nhap chieu cao: ");
+            Console.WriteLine("Nhap chieu dai: ");
             height= Int32.Parse(Console.ReadLine());
-            Console.WriteLine("Nhap can nang: ");
+            Console.WriteLine("Nhap chieu rong: ");
             width= Int32.Parse(Console.ReadLine());
             area= height*width;
             Console.WriteLine("Dien tich hinh chu nhat la: {0}", area);
